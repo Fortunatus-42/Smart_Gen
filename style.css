@@ -30,8 +30,8 @@ header{
 }
 
 nav ul{
-    display:flex;
-    list-style:none;
+    display: flex;
+    list-style: none;
 }
 
 nav ul li{
@@ -492,8 +492,8 @@ html{
         display: none;
     }
 
-    nav.show{
-        display: flex;
+    nav.show, nav ul{
+        display: block;
     }
 
 }
