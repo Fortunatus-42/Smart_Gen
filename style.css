@@ -478,8 +478,12 @@ html{
 
 /* For smartphones */
 @media(max-width: 768px) {
+
+     #menu-btn{
+        display: block;
+    }
     
-    nav ul{
+    nav{
         position: absolute;
         top: 60px;
         left: 0;
@@ -488,11 +492,8 @@ html{
         display: none;
     }
 
-    nav ul li a.active{
+    nav.show{
         display: flex;
     }
 
-    #menu-btn{
-        display: block;
-    }
 }
