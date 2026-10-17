@@ -50,6 +50,7 @@ nav ul li a.active{
     color:yellow;
 }
 
+/* The menu button ie Hambuger */
 #menu-btn{
     display:none;
     font-size:28px;
@@ -473,4 +474,25 @@ html{
 
 @media(max-width: 768px) {
     
+}
+
+/* For smartphones */
+@media(max-width: 768px) {
+    
+    nav ul{
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        display: none;
+    }
+
+    nav ul li a.active{
+        display: flex;
+    }
+
+    #menu-btn{
+        display: block;
+    }
 }

@@ -119,6 +119,11 @@ if (topBtn) {
 
 }
 
+// For menu button
+function toggleMenu(){
+    document.getElementById('navLinks').classList.toggle('active');
+}
+
 // Adding to cart
 function addToCart(){
     alert("Product is successful added to cart.\nPlease wait for confirmation, Thank you!");
