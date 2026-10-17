@@ -120,9 +120,9 @@ if (topBtn) {
 }
 
 // For menu button
-function toggleMenu(){
-    document.getElementById('navLinks').classList.toggle('active');
-}
+// function toggleMenu(){
+//     document.getElementById('navLinks').classList.toggle('active');
+// }
 
 // Adding to cart
 function addToCart(){
